@@ -1,9 +1,9 @@
 import React from 'react';
 
 import {
-  View,
-  ListView
+  View
 } from 'react-native';
+import ListView from "deprecated-react-native-listview";
 
 class Column extends React.Component {
   constructor(props) {
